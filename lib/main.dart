@@ -27,7 +27,7 @@ class HomePage extends StatelessWidget{
         mainAxisAlignment: MainAxisAlignment.center,
         children: <Widget>[
           Container(color: Color.fromARGB(255, 241, 57, 195), height: 100, width: 100),
-          Container(color: Color.fromARGB(255, 138, 180, 114), height: 50, width: 100),
+          Container(color: Color.fromARGB(255, 138, 180, 114), height: 60, width: 100),
           Container(color: Color.fromARGB(255, 225, 158, 228), height: 80, width: 100),
         ]
         )
