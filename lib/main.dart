@@ -24,12 +24,10 @@ class HomePage extends StatelessWidget{
         title: Text('Praktikum Layout Flutter'),
       ),
       body: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        crossAxisAlignment: CrossAxisAlignment.end,
         children: <Widget>[
-          Container(color: Color.fromARGB(255, 241, 57, 195), height: 100, width: 100),
-          Container(color: Color.fromARGB(255, 138, 180, 114), height: 60, width: 60),
-          Container(color: Color.fromARGB(255, 225, 158, 228), height: 80, width: 80),
+          Container(color: Color.fromARGB(255, 241, 57, 195), height: 500, width: 100),
+          Container(color: Color.fromARGB(255, 138, 180, 114), height: 500, width: 100),
+          Container(color: Color.fromARGB(255, 225, 158, 228), height: 500, width: 100),
         ]
         )
     );
